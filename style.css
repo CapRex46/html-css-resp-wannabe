@@ -71,3 +71,32 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 576px) {
+  .container {
+    display: flex;
+  }
+  
+  #lezioni{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #why{
+    display: flex;
+  }
+
+  #why img{
+    width: 25%;
+  }
+  
+  img{
+    display: flex;
+    width: 50%;
+    height: 50%;
+  }
+
+  .first{
+    margin: auto;
+  }
+}
